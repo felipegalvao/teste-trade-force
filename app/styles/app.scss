@@ -1,0 +1,14 @@
+@import 'components/UserListItem';
+@import 'components/UserPost';
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.current-user {
+    font-style: italic;
+}
