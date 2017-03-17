@@ -1,6 +1,5 @@
 import React from 'react';
 import chai from 'chai';
-import { shallow } from 'enzyme';
 import axios from 'axios';
 
 import jsonplaceholderAPI from '../../app/api/jsonplaceholderAPI.jsx';

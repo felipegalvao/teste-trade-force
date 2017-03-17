@@ -11097,6 +11097,7 @@ var MainApp = function (_Component) {
                 currentUserPosts = _state.currentUserPosts,
                 currentUserName = _state.currentUserName;
 
+            // Shows subtitle if there is a currentUserName defined in the state
 
             var renderSubtitle = function renderSubtitle() {
                 if (currentUserName !== null) {

@@ -43,6 +43,7 @@ class MainApp extends Component {
     render() {
         var {users, currentUserPosts, currentUserName} = this.state;
 
+        // Shows subtitle if there is a currentUserName defined in the state
         var renderSubtitle = () => {
             if (currentUserName !== null) {
                 return (<h3>Posts by <span className="current-user">{currentUserName}</span></h3>)
